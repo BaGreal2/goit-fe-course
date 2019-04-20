@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+}
+.nav li:hover {
+   color: rgb(0, 255, 213);
+}
+.nav li {
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.all {
+    text-align: center;
+    width: 1110px;
+    max-width: 1110px;
+}
+.navigation {
+    float: right;
+}
+.title {
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width: 1110px;
+    max-width: 1110px;
+    text-align: center;
+    margin-left: 18%;
+}
+.title::first-letter{
+    font-weight: 15%;
+    font-size: 30px;
+    color: rgb(0, 255, 213);
+}
+.main-img {
+    filter: brightness(50%);
+    margin-top: 10px;
+}
+.menu-img {
+    position: relative;
+    width: 1110px;
+}
+.main-text {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25pt;
+}
+.sub-text {
+    position: absolute;
+    top: 227px;
+    left: -160px;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    font-weight: 100;
+}
+.left {
+    position: absolute;
+    top: 205px;
+    left: 270px;
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background-color: rgba(0, 255, 213, 0.5);
+}
+.right {
+    position: absolute;
+    top: 205px;
+    left: 780px;
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background-color: rgba(0, 255, 213, 0.5);
+}
+.left-point {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 7px;
+}
+.right-point {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 7px;
+}
+.title2 {
+    display: inline-block;
+    margin-top: 50px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25pt;
+}
+.spirit {
+    background-color: rgb(0, 255, 213);
+    width: 164px;
+    height: 7px;
+    margin: 12px auto 70px;
+}
+.shop {
+    display: inline-block;
+    text-align: center;
+    background-color: #e9f0fd;
+    width: 1110px;
+    height: 550px;
+    margin-top: -4px;
+}
+.item1 {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+.item2 {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.item3 {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.item4 {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.name1 {
+    position: absolute;
+    left: 379px;
+    top: 880px;
+    width: 180px;
+    height: 20px;
+    background-color: #323232;
+    margin-top: -4px;
+    margin-right: 0;
+    cursor: pointer;
+}
+.name2 {
+    position: absolute;
+    left: 613px;
+    top: 880px;
+    width: 180px;
+    height: 20px;
+    background-color: #323232;
+    margin-top: -4px;
+    margin-right: 0;
+    cursor: pointer;
+}
+.name3 {
+    position: absolute;
+    left: 847px;
+    top: 880px;
+    width: 180px;
+    height: 20px;
+    background-color: #323232;
+    margin-top: -4px;
+    margin-right: 0;
+    cursor: pointer;
+}
+.name4 {
+    position: absolute;
+    left: 1081px;
+    top: 880px;
+    width: 180px;
+    height: 20px;
+    background-color: #323232;
+    margin-top: -4px;
+    margin-right: 0;
+    cursor: pointer;
+}
+.price1 {
+    position: absolute;
+    left: 559px;
+    top: 880px;
+    width: 40px;
+    height: 20px;
+    background-color: #8c8c8c;
+    margin-top: -4px;
+    margin-right: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.price2 {
+    position: absolute;
+    left: 793px;
+    top: 880px;
+    width: 40px;
+    height: 20px;
+    background-color: #8c8c8c;
+    margin-top: -4px;
+    margin-right: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.price3 {
+    position: absolute;
+    left: 1027px;
+    top: 880px;
+    width: 40px;
+    height: 20px;
+    background-color: #8c8c8c;
+    margin-top: -4px;
+    margin-right: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.price4 {
+    position: absolute;
+    left: 1261px;
+    top: 880px;
+    width: 40px;
+    height: 20px;
+    background-color: #8c8c8c;
+    margin-top: -4px;
+    margin-right: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.name-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: -50px;
+    margin-right: 0;
+}
+.item1:hover .name1 {
+    background-color: #1abc9c;
+}
+.item2:hover .name2 {
+    background-color: #1abc9c;
+}
+.item3:hover .name3 {
+    background-color: #1abc9c;
+}
+.item4:hover .name4 {
+    background-color: #1abc9c;
+}
+.item1:hover .price1 {
+    background-color: #7fd9c7;
+}
+.item2:hover .price2 {
+    background-color: #7fd9c7;
+}
+.item3:hover .price3 {
+    background-color: #7fd9c7;
+}
+.item4:hover .price4 {
+    background-color: #7fd9c7;
+}
+.hidden_menu {
+    display: none;
+    position: absolute;
+    top: 663px;
+    left: 384px;
+    background-color: rgba(63, 100, 94, 0.5);
+    width: 210px;
+    height: 210px;
+}
+button {
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 255, 213, 0);
+    cursor: pointer;
+}
+.heart {
+    position: static;
+    background-color: rgba(0, 255, 213, 0);
+    border: solid;
+    padding: 12px 13px 12px 13px;
+    border-width: 2px;
+    border-color: white;
+    margin-top: 70px;
+}
+.change {
+    background-color: rgba(0, 255, 213, 0);
+    border: solid;
+    padding: 13px 13px 12px 13px;
+    border-width: 2px;
+    border-color: white;
+    margin-top: 70px;
+}
+.clock {
+    background-color: rgba(0, 255, 213, 0);
+    border: solid;
+    padding: 10px 13px 12px 13px;
+    border-width: 2px;
+    border-color: white;
+    margin-top: 70px;
+}
+.addtocart {
+    background-color: #323232;
+    border: solid;
+    padding: 10px 13px 12px 13px;
+    border-width: 2px;
+    border-color: white;
+    margin-top: 5px;
+}
+.buttons{
+    text-align: center;
+}
+button:hover {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.item1:hover .hidden_menu {
+    display: block;
+}
+.item2:hover .hidden_menu2 {
+    display: block;
+}
+.item3:hover .hidden_menu3 {
+    display: block;
+}
+.item4:hover .hidden_menu4 {
+    display: block;
+}
+.hidden_menu2 {
+    display: none;
+    position: absolute;
+    top: 663px;
+    left: 618px;
+    background-color: rgba(63, 100, 94, 0.5);
+    width: 210px;
+    height: 210px;
+}
+.hidden_menu3 {
+    display: none;
+    position: absolute;
+    top: 663px;
+    left: 852px;
+    background-color: rgba(63, 100, 94, 0.5);
+    width: 210px;
+    height: 210px;
+}
+.hidden_menu4 {
+    display: none;
+    position: absolute;
+    top: 663px;
+    left: 1086px;
+    background-color: rgba(63, 100, 94, 0.5);
+    width: 210px;
+    height: 210px;
+}
+.footer {
+    width: 1110px;
+    height: 60px;
+    background-color: #323232;
+    margin: 0 auto;
+}
+.footer_text {
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.green {
+    margin-left: 4px;
+    display: inline-block;
+    color: rgb(0, 255, 213);
+    font-family: 'Roboto', sans-serif;
+}
