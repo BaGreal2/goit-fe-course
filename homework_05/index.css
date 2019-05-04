@@ -127,26 +127,30 @@ body {
     margin-left: 0;
     margin-right: 0;
     cursor: pointer;
+    position: relative;
 }
 .item2 {
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
+    position: relative;
 }
 .item3 {
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
+    position: relative;
 }
 .item4 {
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
+    position: relative;
 }
 .name1 {
     position: absolute;
-    left: 379px;
-    top: 880px;
+    left: 0px;
+    top: 221px;
     width: 180px;
     height: 20px;
     background-color: #323232;
@@ -156,8 +160,8 @@ body {
 }
 .name2 {
     position: absolute;
-    left: 613px;
-    top: 880px;
+    left: 0px;
+    top: 221px;
     width: 180px;
     height: 20px;
     background-color: #323232;
@@ -167,8 +171,8 @@ body {
 }
 .name3 {
     position: absolute;
-    left: 847px;
-    top: 880px;
+    left: 0px;
+    top: 221px;
     width: 180px;
     height: 20px;
     background-color: #323232;
@@ -178,8 +182,8 @@ body {
 }
 .name4 {
     position: absolute;
-    left: 1081px;
-    top: 880px;
+    left: 0px;
+    top: 221px;
     width: 180px;
     height: 20px;
     background-color: #323232;
@@ -189,8 +193,8 @@ body {
 }
 .price1 {
     position: absolute;
-    left: 559px;
-    top: 880px;
+    left: 180px;
+    top: 221px;
     width: 40px;
     height: 20px;
     background-color: #8c8c8c;
@@ -202,8 +206,8 @@ body {
 }
 .price2 {
     position: absolute;
-    left: 793px;
-    top: 880px;
+    left: 180px;
+    top: 221px;
     width: 40px;
     height: 20px;
     background-color: #8c8c8c;
@@ -215,8 +219,8 @@ body {
 }
 .price3 {
     position: absolute;
-    left: 1027px;
-    top: 880px;
+    left: 180px;
+    top: 221px;
     width: 40px;
     height: 20px;
     background-color: #8c8c8c;
@@ -228,8 +232,8 @@ body {
 }
 .price4 {
     position: absolute;
-    left: 1261px;
-    top: 880px;
+    left: 180px;
+    top: 221px;
     width: 40px;
     height: 20px;
     background-color: #8c8c8c;
@@ -274,8 +278,9 @@ body {
 .hidden_menu {
     display: none;
     position: absolute;
-    top: 663px;
-    left: 384px;
+    left: 5px;
+    top: 4px;
+    z-index: 3;
     background-color: rgba(63, 100, 94, 0.5);
     width: 210px;
     height: 210px;
@@ -341,8 +346,9 @@ button:hover {
 .hidden_menu2 {
     display: none;
     position: absolute;
-    top: 663px;
-    left: 618px;
+    left: 5px;
+    top: 4px;
+    z-index: 3;
     background-color: rgba(63, 100, 94, 0.5);
     width: 210px;
     height: 210px;
@@ -350,8 +356,9 @@ button:hover {
 .hidden_menu3 {
     display: none;
     position: absolute;
-    top: 663px;
-    left: 852px;
+    left: 5px;
+    top: 4px;
+    z-index: 3;
     background-color: rgba(63, 100, 94, 0.5);
     width: 210px;
     height: 210px;
@@ -359,8 +366,9 @@ button:hover {
 .hidden_menu4 {
     display: none;
     position: absolute;
-    top: 663px;
-    left: 1086px;
+    left: 5px;
+    top: 4px;
+    z-index: 3;
     background-color: rgba(63, 100, 94, 0.5);
     width: 210px;
     height: 210px;

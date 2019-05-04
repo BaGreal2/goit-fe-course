@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    width: 1200px;
+    margin-left: 13%;
+}
+.navigation {
+    list-style: none;
+}
+.item {
+    display: inline-block;
+    margin-left: 50px;
+    color: #95e1d3;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 10px;
+}
+.item:hover {
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    color: #f6a6a6;
+}
+
+.item:hover .stripe {
+    transition-property: background-color;
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    background-color: #f38181;
+}
+.stripe1 {
+    background-color: white;
+    width: 52px;
+    height: 3px;
+    text-align: center;
+}
+.stripe2 {
+    background-color: white;
+    width: 64px;
+    height: 3px;
+    text-align: center;
+}
+.stripe {
+    background-color: white;
+    width: 47px;
+    height: 3px;
+    text-align: center;
+}
+.stripe4 {
+    background-color: white;
+    width: 42px;
+    height: 3px;
+    text-align: center;
+}
+.stripe5 {
+    background-color: white;
+    width: 74px;
+    height: 3px;
+    text-align: center;
+}
+.item:hover .stripe1 {
+    transition-property: background-color;
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    background-color: #f38181;
+}
+.item:hover .stripe2 {
+    transition-property: background-color;
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    background-color: #f38181;
+}
+.item:hover .stripe4 {
+    transition-property: background-color;
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    background-color: #f38181;
+}
+.item:hover .stripe5 {
+    transition-property: background-color;
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    background-color: #f38181;
+}
+.sub-title {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-top: 110px;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+.stripe_01 {
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    text-align: center;
+    margin-left: 48%;
+    margin-bottom: 60px;
+}
+.part1 {
+    width: 330px;
+    margin-right: 150px;
+}
+.service1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.service2 {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-sub-title {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -42px;
+    margin-left: 48px;
+    margin-bottom: -10px;
+    font-size: 14pt;
+    color: rgba(51, 51, 51, 255);
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    color: rgba(51, 51, 51, 255);
+    margin-left: 48px;
+    width: 269px;
+    height: 69px;
+
+}
+.service {
+    width: 1200px;
+    max-width: 1200px;
+}
+.sub-text {
+    width: 941px;
+    text-align: center;
+    margin-left: 11%;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color: rgba(51, 51, 51, 255);
+    margin-bottom: 50px;
+}
+.people {
+    display: flex;
+    justify-content: space-around;
+}
+.part2 {
+    position: relative;
+    margin-bottom: -4px;
+}
+.pimg {
+    cursor: pointer;
+    margin-bottom: -4px;
+
+}
+.part2:hover .hidden_menu {
+    transition-property: display, top, left;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    display: block;
+}
+.hidden_menu {
+    display: none;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 383px;
+    height: 473px;
+    background: linear-gradient(#ef8a8a, #eed687);
+    cursor: pointer;
+    margin-bottom: -4px;
+}
+.part2:hover {
+    transition-property: top, left;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    top: -6px;
+    left: -6px;
+    -webkit-box-shadow: 17px 17px 0px -9px rgba(149,225,211,1);
+    -moz-box-shadow: 17px 17px 0px -9px rgba(149,225,211,1);
+    box-shadow: 17px 17px 0px -9px rgba(149,225,211,1);
+}
+.button {
+    width: 55px;
+    height: 55px;
+    background-color: #fce38a;
+    padding: 0;
+    border: none;
+    margin-right: 2px;
+    opacity: 1;
+    cursor: pointer;
+}
+.lpng {
+    text-align: center;
+}
+.buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    margin-top: 190px;
+    margin-left: -20px;
+    opacity: 1;
+}
+.button:hover {
+    transition-property: background-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    background-color: #95e1d3;
+}
+.who {
+    text-align: center;
+
+}
+.name {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(51, 51, 51, 255);
+}
+.work {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(153, 153, 153, 255);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.foot {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.href {
+    display: inline-block;
+    margin-left: 4px;
+    color: #f6a6a6;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 281px;
+    font-family: 'Montserrat', sans-serif;
+}
+#name {
+    display: inline-block;
+    height: 40px;
+    position: absolute;
+    top: 16px;
+    left: 211px;
+}
+.but {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 0;
+    border: none;
+    height: 46px;
+    width: 150px;
+    background-color: #95e1d3;
+    cursor: pointer;
+}
+.foot_text {
+    position: relative;
+    margin-top: 18px;
+}
+.sub {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.email {
+    position: relative;
+}
+.stripe_02 {
+    width: 1200px;
+    height: 1px;
+    background-color: #e5e5e5;
+}
