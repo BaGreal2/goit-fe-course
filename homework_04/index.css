@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-name {
+    list-style: none;
+}
+.nav-name-item {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.logo {
+    width: 78px;
+    height: 21px;
+}
+body {
+    width: 1110px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.nav-name-item:hover {
+    color: #62cab2;
+}
+.title {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-top: 80px;
+    color: rgba(81, 81, 81, 255);
+    font-size: 50px;
+}
+.stripe {
+    margin-left: 42.5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.product {
+    display: inline-block;
+    margin-right: 30px;
+    width: 244px;
+    position: relative;
+    cursor: pointer;
+}
+.name {
+    display: inline-block;
+    background-color: #323232;
+    height: 40px;
+    width: 194px;
+    margin-right: 0;
+    margin-bottom: -4px;
+}
+.price {
+    display: inline-block;
+    background-color: #8c8c8c;
+    height: 40px;
+    width: 60px;
+    margin-right: 0;
+    position: absolute;
+    top: 286px;
+    left: 194px;
+    margin-top: -4px;
+}
+.info {
+    height: 40px;
+    margin-bottom: 20px;
+}
+.product img {
+    margin-bottom: -4px;
+}
+.name-text {
+    font-family: 'Roboto';
+    color: white;
+    margin: 11px 11px;
+}
+.price-text {
+    font-family: 'Roboto';
+    color: white;
+    margin: 11px 11px;
+}
+.product:hover .name {
+    background-color: #1abc9c;
+}
+.product:hover .price {
+    background-color: #7fd9c7;
+}
+.new {
+    display: inline-block;
+    margin-right: 19px;
+}
+.text2 {
+    width: 301px;
+    height: 44px;
+    font-family: 'OpenSans', sans-serif;
+    color: rgba(85, 82, 82, 255);
+    font-weight: 700;
+    margin-top: -4px;
+}
+.sub-text2 {
+    margin-top: 20px;
+    width: 301px;
+    font-family: 'OpenSans', sans-serif;
+    color: rgba(85, 82, 82, 255);
+    font-weight: 200;
+    font-size: 15px;
+}
+.read {
+    background-color: #4ec6ab;
+    width: 150px;
+    height: 51px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 14px;
+}
+.but-text {
+    font-family: 'OpenSans', sans-serif;
+    color: white;
+}
