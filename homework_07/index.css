@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Libre+Baskerville:400,400i,700');
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Web font';
+    src: url('./fonts/montserrat-v13-latin-300italic.woff2') format('woff2'),
+    url('./fonts/montserrat-v13-latin-800.woff2') format('woff2'),
+    url('./fonts/roboto-slab-v8-latin-300.woff2') format('woff2'),
+    url('./fonts/roboto-slab-v8-latin-700.woff2') format('woff2'),
+    url('./fonts/roboto-slab-v8-latin-700.woff') format('woff'),
+    url('./fonts/roboto-slab-v8-latin-300.woff') format('woff'),
+    url('./fonts/montserrat-v13-latin-800.woff') format('woff'),
+    url('./fonts/montserrat-v13-latin-300italic.woff') format('woff');
+}
+.nav-item {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 35px;
+    font-weight: bold;
+    margin-top: 2px;
+    cursor: pointer;
+}
+body {
+    margin: 0 auto;
+}
+header,
+.services,
+.service-items {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-items {
+    list-style: none;
+}
+.nav-items:nth-child(5) {
+    margin-right: 0;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-item-link:hover {
+    text-decoration: none;
+    color: #fede7f;
+}
+.nav-item-link:active {
+    text-decoration: none;
+    color: black;
+}
+.nav-item-link {
+  text-decoration: none;
+  color: black;
+}
+.title {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40pt;
+    color: rgb(34, 34, 34);
+}
+.sub-title {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 16pt;
+    color: rgba(119, 119, 119, 255);
+    margin-top: 10px;
+}
+.service-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.service-item {
+    width: 274px;
+    margin-right: 45px;
+    margin-bottom: 115px;
+}
+.service-item:nth-child(3) {
+    margin-right: 0;
+}
+.sub-sub-title {
+    font-family: 'Roboto Slab', sans-serif;
+    color: rgba(34, 34, 34, 1);
+    /*margin-left: 33%;*/
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.service-img {
+    display: inline-block;
+    margin-left: 38%;
+}
+.sub-sub-sub-text {
+    font-family: 'Roboto Slab', sans-serif;
+    color: rgba(119, 119, 119, 1);
+    text-align: center;
+    margin-top: 12px;
+}
+.contact {
+    position: relative;
+}
+.contact-bg {
+    background-color: #222222;
+    height: 677px;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+.title2 {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40pt;
+    color: white;
+    margin-bottom: 0;
+}
+.sub-title2 {
+    margin-top: -15px;
+}
+.world {
+    position: absolute;
+    z-index: 2;
+    left: 984px;
+    top: 130px;
+}
+.input1 {
+    width: 455px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    margin-top: 70px;
+}
+.textarea {
+    display: inline-block;
+    width: 455px;
+    height: 210px;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-left: 28px;
+}
+.pre-inputs {
+    display: inline-block;
+}
+.pre-pre-inputs {
+    display: flex;
+    justify-content: center;
+}
+.input_first {
+    margin-top: 0;
+}
+.send_mail {
+    display: block;
+    width: 240px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fed136;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 25px auto;
+}

@@ -6,7 +6,9 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+}
+header {
+    padding-top: 20px;
 }
 .nav-name {
     list-style: none;
@@ -14,9 +16,26 @@ nav {
 .nav-name-item {
     display: inline-block;
     margin-left: 30px;
+    cursor: pointer;
+}
+.nav-name-item-text {
     font-family: 'OpenSans', sans-serif;
     font-weight: 700;
-    cursor: pointer;
+}
+a:active {
+    color: black;
+    text-decoration: none;
+}
+a.nav-name-item-text:hover {
+    color: #62cab2;
+    text-decoration: none;
+}
+.nav-name-item1 {
+    margin-left: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 .logo {
     width: 78px;
@@ -34,21 +53,23 @@ body {
     text-align: center;
     font-family: 'Roboto';
     font-weight: 900;
-    margin-top: 80px;
+    /*margin-top: 80px;*/
     color: rgba(81, 81, 81, 255);
     font-size: 50px;
-}
-.stripe {
-    margin-left: 42.5%;
-    margin-top: 20px;
-    margin-bottom: 40px;
 }
 .product {
     display: inline-block;
     margin-right: 30px;
-    width: 244px;
+    width: 252px;
     position: relative;
     cursor: pointer;
+    margin-bottom: 30px;
+}
+.product:nth-child(4n) {
+    margin-right: 0;
+}
+.p1 {
+    margin-bottom: 0;
 }
 .name {
     display: inline-block;
@@ -71,7 +92,6 @@ body {
 }
 .info {
     height: 40px;
-    margin-bottom: 20px;
 }
 .product img {
     margin-bottom: -4px;
@@ -80,11 +100,13 @@ body {
     font-family: 'Roboto';
     color: white;
     margin: 11px 11px;
+    font-size: 13pt;
 }
 .price-text {
     font-family: 'Roboto';
     color: white;
     margin: 11px 11px;
+    font-size: 13pt;
 }
 .product:hover .name {
     background-color: #1abc9c;
@@ -94,15 +116,19 @@ body {
 }
 .new {
     display: inline-block;
-    margin-right: 19px;
+    margin-right: 20px;
+    width: 350px;
+    margin-left: -4px;
 }
 .text2 {
+    display: block;
     width: 301px;
     height: 44px;
     font-family: 'OpenSans', sans-serif;
     color: rgba(85, 82, 82, 255);
     font-weight: 700;
-    margin-top: -4px;
+    margin-top: 20px;
+    margin-right: 0;
 }
 .sub-text2 {
     margin-top: 20px;
@@ -124,3 +150,32 @@ body {
     font-family: 'OpenSans', sans-serif;
     color: white;
 }
+.shop {
+    padding-top: 80px;
+}
+.title:after {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+.latest-news {
+    margin: 0 auto;
+}
+.text2:after {
+    display: block;
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+.news {
+    padding-top: 40px;
+}
+
