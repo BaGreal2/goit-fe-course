@@ -139,7 +139,6 @@ header,
 .inputs {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     margin-top: 70px;
 }
 .textarea {
@@ -172,4 +171,7 @@ header,
     font-size: 12pt;
     font-weight: bold;
     margin: 25px auto;
+}
+.required {
+    outline-color: red;
 }
