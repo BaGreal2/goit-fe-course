@@ -1,0 +1,28 @@
+/*.bgi {
+    background: url(./img/placeimg_400_200_nature.jpg) no-repeat;
+    width: 400px;
+    height: 300px;
+}
+
+@media  (-webkit-mindevice-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .bgi {
+        background: url(../img/placeimg_400_200_nature\ \(1\).jpg) no-repeat;
+    }
+}
+.big {
+    width: 100px;
+}
+.nature__title--orange {
+    color: orange;
+}*/
+.bgi {
+    background: url(./img/placeimg_400_200_nature.jpg) no-repeat;
+    width: 400px;
+    height: 300px;
+}
+
+@media  (-webkit-mindevice-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .bgi {
+        background: url(../img/placeimg_400_200_nature\ \(1\).jpg) no-repeat;
+    }
+}

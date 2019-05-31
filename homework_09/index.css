@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Roboto:300,300i,400,400i');
+* {
+    margin: 0;
+    padding: 0
+}
+header {
+    position: relative;
+}
+main {
+    position: relative;
+}
+.log {
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.reg {
+    display: inline-block;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: rgba(200, 200, 200, 0);
+    margin-left: 15px;
+}
+.register {
+    position: absolute;
+    top: 5px;
+    left: 88px;
+}
+.german {
+    position: absolute;
+    top: 120px;
+    left: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.main-img {
+    width: 100%;
+    height: 542px;
+    position: relative;
+    left: 0;
+    top: 0;
+    filter: brightness(80%);
+}
+.main-img2 {
+    display: none;
+}
+.title {
+    position: absolute;
+    top: 180px;
+    left: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 310px;
+}
+.sub-title {
+    position: absolute;
+    top: 255px;
+    left: 57px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    width: 217px;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    border: none;
+}
+.reg_a {
+    padding: 0;
+    border: none;
+}
+.button_a {
+    position: absolute;
+    top: 317px;
+    left: 8px;
+}
+.button {
+    padding: 12px;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 25px;
+    padding-right: 45px;
+    padding-left: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.title2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 75px;
+}
+.partners_list {
+    list-style: none;
+}
+.character {
+    border-radius: 100px;
+    margin-left: 45px;
+}
+.soc_1-img {
+    margin-top: 7px;
+}
+.soc_2-img {
+    margin-top: 7px;
+}
+.soc_3-img {
+    margin-top: 7px;
+}
+.soc_4-img {
+    margin-top: 8px;
+    margin-left: -2px;
+}
+.soc_1 {
+    background-color: #ff4e50;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    border-width: 4px;
+    color: black;
+}
+.soc_2 {
+    background-color: #ffa507;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    border-width: 4px;
+    color: black;
+}
+.soc_3 {
+    background-color: #1cd7ad;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    border-width: 4px;
+    color: black;
+}
+.soc_4 {
+    background-color: #4e73db;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    border-width: 4px;
+    border-color: black;
+
+}
+.partner_cont {
+    position: relative;
+}
+.border {
+    border: solid 5px white;
+    border-radius: 100px;
+    position: absolute;
+    left: 130px;
+    top: 84px;
+}
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 217px;
+    text-align: center;
+}
+.last_button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:  rgba(255, 78, 80, 1);
+    border: solid 2px rgba(255, 78, 80, 1);
+    border-radius: 100px;
+    padding: 15px 70px 15px 70px;
+    background-color: rgba(255, 78, 80, 0);
+    font-size: 14px;
+    height: 50px;
+}
+.last {
+    margin-bottom: 30px;
+}
+.col-sm-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-md-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-md-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
