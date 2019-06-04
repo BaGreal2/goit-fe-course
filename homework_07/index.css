@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/*margin-top*/
 @font-face {
     font-family: 'Web font';
     src: url('./fonts/montserrat-v13-latin-300italic.woff2') format('woff2'),
@@ -31,11 +32,14 @@ header,
     width: 960px;
     margin: 0 auto;
 }
-
-.head {
+.services {
+    padding-top: 70px;
+    margin-bottom: 80px;
+}
+header {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .nav-items {
     list-style: none;
@@ -55,27 +59,26 @@ header,
     color: black;
 }
 .nav-item-link {
-  text-decoration: none;
-  color: black;
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 .title {
     font-family: 'Roboto Slab', sans-serif;
     text-align: center;
-    margin-top: 70px;
     font-size: 40pt;
     color: rgb(34, 34, 34);
+    margin-bottom: 10px;
 }
 .sub-title {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 16pt;
     color: rgba(119, 119, 119, 255);
-    margin-top: 10px;
 }
 .service-items {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
 }
 .service-item {
     width: 274px;
@@ -88,20 +91,19 @@ header,
 .sub-sub-title {
     font-family: 'Roboto Slab', sans-serif;
     color: rgba(34, 34, 34, 1);
-    /*margin-left: 33%;*/
-    margin-top: 20px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 12px;
 }
 .service-img {
     display: inline-block;
     margin-left: 38%;
+    margin-bottom: 20px;
 }
 .sub-sub-sub-text {
     font-family: 'Roboto Slab', sans-serif;
     color: rgba(119, 119, 119, 1);
     text-align: center;
-    margin-top: 12px;
 }
 .contact {
     position: relative;
@@ -120,33 +122,37 @@ header,
     font-size: 40pt;
     color: white;
     margin-bottom: 0;
+    margin-bottom: -15px;
 }
-.sub-title2 {
-    margin-top: -15px;
+.sub-title {
+    margin-bottom: 70px;
 }
 .world {
+    content: "";
+    background: url(./img/Map\ Image@1X.png);
     position: absolute;
     z-index: 2;
-    left: 984px;
+    right: 2px;
     top: 130px;
+    width: 614px;
+    height: 537px;
+
 }
 .input1 {
     width: 455px;
     height: 50px;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .inputs {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
 }
 .textarea {
     display: inline-block;
     width: 455px;
     height: 210px;
     border-radius: 5px;
-    margin-top: 70px;
     margin-left: 28px;
 }
 .pre-inputs {
@@ -155,6 +161,7 @@ header,
 .pre-pre-inputs {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 .input_first {
     margin-top: 0;
@@ -172,6 +179,9 @@ header,
     font-weight: bold;
     margin: 25px auto;
 }
-.required {
+.required:valid {
+    outline-color: green;
+}
+.required:invalid {
     outline-color: red;
 }
