@@ -1,105 +1,127 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 4px;
+    padding: 0;
 }
-.nav li:hover {
+.li_text:hover {
    color: rgb(0, 255, 213);
 }
-.nav li {
-    display: inline;
+.nav__li {
+    display: inline-block;
     margin-right: 10px;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
+.nav {
+    width: 502px;
+    margin-top: 10px;
+}
 .all {
     text-align: center;
-    width: 1110px;
-    max-width: 1110px;
+    width: 100vw;
+    max-width: 100%;
 }
 .navigation {
-    float: right;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .title {
     float: left;
     margin: 0;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 30px;
+    font-weight: 300;
 }
 body {
-    width: 1110px;
-    max-width: 1110px;
+    width: 100vw;
+    max-width: 100%;
     text-align: center;
-    margin-left: 18%;
 }
 .title::first-letter{
     font-weight: 15%;
     font-size: 30px;
     color: rgb(0, 255, 213);
+    font-weight: 900;
 }
 .main-img {
     filter: brightness(50%);
     margin-top: 10px;
+    width: 100%;
+    height: auto;
 }
 .menu-img {
     position: relative;
-    width: 1110px;
+    width: 100%;
 }
 .main-text {
     position: absolute;
-    top: 170px;
+    top: 200px;
     left: 0;
     right: 0;
     bottom: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 25pt;
+    font-size: 35pt;
 }
 .sub-text {
     position: absolute;
-    top: 227px;
-    left: -160px;
+    top: 261px;
+    left: -230px;
     right: 0;
     bottom: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 10pt;
+    font-size: 14pt;
     font-weight: 100;
 }
 .left {
     position: absolute;
-    top: 205px;
-    left: 270px;
+    top: 200px;
+    left: 331px;
     cursor: pointer;
-    width: 52px;
-    height: 52px;
+    width: 105px;
+    height: 105px;
     background-color: rgba(0, 255, 213, 0.5);
 }
 .right {
     position: absolute;
     top: 205px;
-    left: 780px;
+    right: 331px;
     cursor: pointer;
-    width: 52px;
-    height: 52px;
+    width: 105px;
+    height: 105px;
     background-color: rgba(0, 255, 213, 0.5);
+}
+.left:hover {
+    background-color: rgba(0, 255, 213, 1);
+}
+.right:hover {
+    background-color: rgba(0, 255, 213, 1);
 }
 .left-point {
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 7px;
+    font-weight: 200;
+    font-size: 60px;
+    margin-top: 17px;
 }
 .right-point {
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 7px;
+    font-weight: 200;
+    font-size: 60px;
+    margin-top: 17px;
 }
 .title2 {
     display: inline-block;
@@ -118,9 +140,9 @@ body {
     display: inline-block;
     text-align: center;
     background-color: #e9f0fd;
-    width: 1110px;
     height: 550px;
     margin-top: -4px;
+    width: 100%;
 }
 .item1 {
     display: inline-block;
@@ -374,7 +396,7 @@ button:hover {
     height: 210px;
 }
 .footer {
-    width: 1110px;
+    width: 100%;
     height: 60px;
     background-color: #323232;
     margin: 0 auto;

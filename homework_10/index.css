@@ -172,7 +172,7 @@ a:active {
     cursor: pointer;
     font-size: 15px;
 }
-.main__subtitle {
+.section__subtitle {
     font-family: 'Kaushan Script', cursive;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -182,7 +182,7 @@ a:active {
             justify-content: center;
     font-size: 30px;
 }
-.main__title {
+.section__title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -199,20 +199,31 @@ a:active {
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    margin-bottom: 42px;
 }
-.main__title::after {
+.section__title::after {
     content: "";
     background-color: #f38181;
     width: 60px;
     height: 3px;
     margin: 0 auto;
+    margin-bottom: 42px;
     margin-top: 42px;
 
+}
+.personal__first--character {
+    margin-left: 11.5%;
+}
+.character__picture {
+    width: 383px;
+}
+.section__last--items {
+    margin-bottom: 0;
 }
 .item__stripe2 {
     width: 40px;
 }
-.main__list {
+.services__list {
     list-style: none;
 }
 .main__list2 {
@@ -224,12 +235,14 @@ a:active {
 .main__item2 {
     width: 340px;
 }
-.main__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+.services__list {
+    width: 1000px;
+    margin: 0 auto;
+}
+.services__item {
+    display: inline-block;
+    margin-right: 106px;
+    margin-bottom: 30px;
 }
 .main__list2 {
     display: -webkit-box;
@@ -238,7 +251,8 @@ a:active {
     -ms-flex-pack: distribute;
         justify-content: space-around;
 }
-.section__title {
+
+.services__title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     display: inline-block;
@@ -247,11 +261,15 @@ a:active {
     position: relative;
     top: -42px;
 }
-.section__sub--title {
+.services__last--item {
+    margin-right: 0;
+}
+.services__sub--title {
     font-family: 'Roboto', sans-serif;
     color: #d0d0d0;
     margin-left: 60px;
     margin-top: -50px;
+    width: 200px;
 }
 .main__text {
     color: #d0d0d0;
@@ -277,6 +295,8 @@ a:active {
 .personal__character {
     margin-right: 30px;
     position: relative;
+    width: 383px;
+    display: inline-block;
 }
 .personal__character::last-child {
     margin-right: 0;
@@ -435,4 +455,5 @@ img {
 }
 .main__section2 {
     padding-top: 90px;
+    margin: 0 auto;
 }
