@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 .color:hover {
-        color: blueviolet;
-        margin: 0
-        padding: 0
+        color:  #6bc2f7;
+}
+header {
+    margin: 0 auto;
 }
 .color {
     float: left;
-    margin: 0 40px;
-    margin-left: 20px;
+    margin-left: 115px;
     cursor: pointer;
 }
 .menu {
-    margin: 60px 0 70px 30%;
+    padding-bottom: 50px;
+    padding-top: 60px;
     width: 960px;
     font-size: 20px;
     font-family: Playfair Display;
@@ -41,7 +42,6 @@
     margin: 0 20px;
 }
 .menu {
-    margin: 60px 0 80px 30%;
     margin-bottom: 0;
 }
 .container {
@@ -51,7 +51,8 @@
 .list {
     display: inline-block;
     width: 470px;
-    margin-top: 50px;
+    vertical-align: top;
+    margin-right: 16px;
 }
 .lifestyle {
     margin: 35px 0 35px 0;
@@ -60,21 +61,10 @@
     text-align: left;
     font-family: Playfair Display;
 }
-.title {
-    color: grey;
-    text-align: left;
-}
-.text {
-    display: inline-block;
-    width: 470px;
-    padding: 5px;
-    font-family: Playfair Display;
-    text-align: left;
-}
 .list2 {
     display: inline-block;
-    margin-left: 10px;
     width: 470px;
+    vertical-align: top;
 }
 .lifestyle2 {
     margin: 35px 0 35px 0;
@@ -86,28 +76,20 @@
 .title2 {
     color: grey;
     text-align: left;
+    font-size: 35px;
 }
 .text2 {
     display: inline-block;
-    width: 470px;
     padding: 5px;
     font-family: Playfair Display;
     text-align: left;
+    font-size: 16px;
 }
 body {
     text-align: center;
-    width: 960px;
-    margin-left: 20%;
 }
 .container {
     text-align: center
-}
-#lastmenu {
-    margin-right: 500px;
-    margin-left: 0;
-}
-.lifestylepng {
-    width: 470px;
 }
 .lifestylepng2 {
     width: 470px;
@@ -119,11 +101,10 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
-
-
+    margin: 0 auto;
 }
 ul li {
-    display: inline;
+    display: inline-block;
 }
 .text3 {
     width: 470px;
@@ -141,7 +122,24 @@ ul li {
     cursor: pointer;
     font-size: 20px;
     font-family: Playfair Display;
+    background-color: rgba(15, 67, 34, 0)
 }
-.color:focus {
-    color: blueviolet;
+a {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.section {
+    font-size: 0;
 }
