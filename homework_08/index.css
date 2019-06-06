@@ -272,6 +272,9 @@
         top: 20px;
         left: 575px;
     }
+    .partners_list {
+        margin-left: 13%;
+    }
     .german {
         position: absolute;
         top: 18px;
@@ -299,20 +302,27 @@
     .title2 {
         font-size: 30px;
     }
-    .partners_list {
+    /*.partners_list {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-    }
+    }*/
     .partners_position {
         display: flex;
         justify-content: space-between;
     }
     .partner {
         margin-bottom: 55px;
+        display: inline-block;
     }
     .partner_cont {
         margin-left: 50px;
+    }
+    .partner_cont1 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .last1 {
+        margin-top: -40px;
     }
 }
 @media (min-width: 1440px) {
@@ -361,5 +371,14 @@
     }
     .alast_button {
         margin-left: 75px;
+    }
+    .partner_cont1 {
+        margin-top: 25px;
+    }
+    .last1 {
+        margin-top: 25px;
+    }
+    .partners_list {
+        margin-left: 0;
     }
 }
