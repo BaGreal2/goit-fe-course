@@ -128,7 +128,7 @@ a:active {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-.header__pre--title {
+.header__subtitle {
     font-family: 'Kaushan Script', cursive;
     margin: 0 auto;
     width: 508px;
@@ -172,7 +172,7 @@ a:active {
     cursor: pointer;
     font-size: 15px;
 }
-.main__pre--title {
+.main__subtitle {
     font-family: 'Kaushan Script', cursive;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -181,7 +181,6 @@ a:active {
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 30px;
-    margin-top: 90px;
 }
 .main__title {
     display: -webkit-box;
@@ -276,8 +275,11 @@ a:active {
             justify-content: center;
 }
 .personal__character {
-    margin-left: 30px;
+    margin-right: 30px;
     position: relative;
+}
+.personal__character::last-child {
+    margin-right: 0;
 }
 .main__personal:first-child {
     margin-left: 0;
@@ -427,4 +429,10 @@ img {
 .character__picture:hover .character__picture img {
     transform: translate(-10px, -10px);
 
+}
+.main__section1 {
+    padding-top: 90px;
+}
+.main__section2 {
+    padding-top: 90px;
 }
