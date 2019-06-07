@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 body {
     margin: 0;
 }
@@ -118,7 +116,9 @@ a:hover {
 .sub-title {
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    margin-top: 110px;
+}
+.all_items {
+    padding-top: 110px;
 }
 .title {
     font-family: 'Montserrat', sans-serif;
@@ -137,7 +137,6 @@ a:hover {
     background-color: #f38181;
     margin: 0 auto;
     margin-top: 42px;
-    margin-bottom: 42px;
 }
 .service1 {
     margin-bottom: 50px;
