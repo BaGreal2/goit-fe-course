@@ -284,10 +284,14 @@ a:active {
             transition-duration: 0.5s;
     -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
     box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
-    margin-left: -10px;
-    margin-top: -10px;
     cursor: pointer;
+    transform: translate(-10px, -10px);
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
 .picture__img {
     margin-bottom: -4px;
 }
@@ -410,4 +414,15 @@ footer {
     color: white;
     border: none;
     margin-left: -4px;
+}
+.character__picture:hover .character__picture img {
+    transform: translate(-10px, -10px);
+
+}
+.main__section1 {
+    padding-top: 90px;
+}
+.main__section2 {
+    padding-top: 90px;
+    margin: 0 auto;
 }
