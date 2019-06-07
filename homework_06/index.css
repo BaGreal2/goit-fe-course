@@ -2,19 +2,44 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
-    width: 1200px;
-    margin-left: 13%;
+    margin: 0;
 }
 .navigation {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding-top: 20px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: #95e1d3;
+}
+a:active {
+    text-decoration: none;
+    color: #95e1d3;
+}
+a:hover {
+    text-decoration: none;
+    color: #f6a6a6;
+}
+.li_link {
+    color: #95e1d3;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 .item {
     display: inline-block;
     margin-left: 50px;
-    color: #95e1d3;
+    
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
 }
 .head {
     display: flex;
@@ -100,22 +125,23 @@ body {
     text-align: center;
     margin-top: 15px;
 }
-.stripe_01 {
-    background-color: #f38181;
-    width: 60px;
-    height: 3px;
-    text-align: center;
-    margin-left: 48%;
-    margin-bottom: 60px;
-}
 .part1 {
     width: 330px;
-    margin-right: 150px;
+    margin-right: 67px;
+}
+.title::after {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 42px;
 }
 .service1 {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 50px;
+    width: 1200px;
 }
 .service2 {
     display: flex;
@@ -145,7 +171,7 @@ body {
 .sub-text {
     width: 941px;
     text-align: center;
-    margin-left: 11%;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
     color: rgba(51, 51, 51, 255);
@@ -158,6 +184,7 @@ body {
 .part2 {
     position: relative;
     margin-bottom: -4px;
+    width: 383px;
 }
 .pimg {
     cursor: pointer;
@@ -236,6 +263,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .foot {
     display: inline-block;
@@ -255,11 +283,13 @@ body {
     display: inline-block;
     height: 40px;
     position: absolute;
-    top: 16px;
-    left: 211px;
+    top: 11px;
+    left: -383px;
 }
 .but {
-    display: inline-block;
+    position: absolute;
+    top: -5px;
+    right: 60px;
     margin-top: 16px;
     padding: 0;
     border: none;
@@ -271,6 +301,8 @@ body {
 .foot_text {
     position: relative;
     margin-top: 18px;
+    display: inline-block;
+    margin-left: 20px;
 }
 .sub {
     font-family: 'Montserrat', sans-serif;
@@ -278,9 +310,25 @@ body {
 }
 .email {
     position: relative;
+    display: inline-block;
 }
 .stripe_02 {
     width: 1200px;
     height: 1px;
     background-color: #e5e5e5;
+    margin: 0 auto;
+}
+.all {
+    width: 383px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.all_last {
+    margin-right: 0;
+}
+li {
+    display: inline-block;
+}
+ul {
+    list-style: none;
 }
