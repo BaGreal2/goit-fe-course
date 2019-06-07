@@ -6,6 +6,14 @@
 $mont: 'Montserrat', sans-serif;
 $hovcol: #fad989;
 $rob: 'Roboto', sans-serif;
+$blue: #95e1d3;
+$wh: white;
+$hovcol2: #f6a6a6;
+$hovcol3: #fce38a;
+$mwh: #d0d0d0;
+$grey: #484848;
+$trans: rgba(245, 253, 169, 0);
+$shadow: rgba(149,225,211,1);
 .header {
     position: relative;
     background-image: url(../images/eagle@1x.png);
@@ -49,7 +57,7 @@ $rob: 'Roboto', sans-serif;
 .navigation__logo {
     font-family: $mont;
     font-weight: bold;
-    color: white;
+    color: $wh;
     font-size: 43px;
     margin-top: 20px;
     cursor: pointer;
@@ -60,7 +68,7 @@ $rob: 'Roboto', sans-serif;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    color: rgba(255, 255, 255, 1);
+    color: $wh;
 }
 .navigation__list {
     list-style: none;
@@ -70,13 +78,13 @@ $rob: 'Roboto', sans-serif;
 .list__item {
     display: inline-block;
     font-family: $mont;
-    color: rgba(255, 255, 255, 1);
+    color: $wh;
     margin-left: 50px;
     cursor: pointer;
 }
 .item__href {
     font-family: $mont;
-    color: white;
+    color: $wh;
 }
 .item__stripe {
     
@@ -94,7 +102,7 @@ $rob: 'Roboto', sans-serif;
             transition-duration: 0.5s;
     width: 50px;
     height: 3px;
-    background-color: #fce38a;
+    background-color: $hovcol3;
 }
 .list__item:hover {
     color: $hovcol;
@@ -108,7 +116,7 @@ $rob: 'Roboto', sans-serif;
 a {
     text-decoration: none; 
     font-family: $mont;
-    color: white;
+    color: $wh;
 }
 a:hover {
     -webkit-transition-property: color;
@@ -124,14 +132,14 @@ a:hover {
 a:active {
     text-decoration: none; 
     font-family: $mont;
-    color: white;
+    color: $wh;
 }
 .header__pre--title {
     font-family: 'Kaushan Script', cursive;
     margin: 0 auto;
     width: 508px;
     margin-top: 180px;
-    color: white;
+    color: $wh;
     font-size: 71px;
     margin-bottom: 60px;
 }
@@ -141,7 +149,7 @@ a:active {
     font-family: $mont;
     font-weight: bold;
     font-size: 154px;
-    color: white;
+    color: $wh;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -152,14 +160,14 @@ a:active {
     margin-bottom: 54px;
 }
 .header__button {
-    background-color: rgba(245, 253, 169, 0);
-    color: white;
+    background-color: $trans;
+    color: $wh;
     font-family: $mont;
     font-weight: bold;
     margin: 0 auto;
     padding: 11px 29px 11px 29px;
     border: solid;
-    border-color: white;
+    border-color: $wh;
     border-width: 3px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -200,7 +208,7 @@ a:active {
 }
 .main__title::after {
     content: "";
-    background-color: #f38181;
+    background-color: $hovcol2;
     width: 60px;
     height: 3px;
     margin: 0 auto;
@@ -237,19 +245,19 @@ a:active {
     font-family: $mont;
     font-weight: bold;
     display: inline-block;
-    color: #484848;
+    color: $grey;
     margin-left: 20px;
     position: relative;
     top: -18px;;
 }
 .list__item__sub--title {
     font-family: $rob;
-    color: #d0d0d0;
+    color: $mwh;
     margin-left: 154px;
     margin-top: -30px;
 }
 .main__text {
-    color: #d0d0d0;
+    color: $mwh;
     text-align: center;
     width: 954px;
     margin: 0 auto;
@@ -283,8 +291,8 @@ a:active {
     -webkit-transition-duration: 0.5s;
          -o-transition-duration: 0.5s;
             transition-duration: 0.5s;
-    -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
-    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    -webkit-box-shadow: 10px 10px 0px 0px $shadow;
+    box-shadow: 10px 10px 0px 0px $shadow;
     cursor: pointer;
 }
 img {
@@ -331,7 +339,7 @@ img {
     display: inline-block;
     width: 55px;
     height: 55px;
-    background-color: #fce38a;
+    background-color: $hovcol3;
 }
 svg {
     margin-left: 30%;
@@ -344,7 +352,7 @@ svg {
     -webkit-transition-duration: 0.5s;
          -o-transition-duration: 0.5s;
             transition-duration: 0.5s;
-    background-color: #f38181;
+    background-color: $hovcol2;
 }
 .socials__icons:hover path {
     -webkit-transition-property: all;
@@ -353,7 +361,7 @@ svg {
     -webkit-transition-duration: 0.5s;
          -o-transition-duration: 0.5s;
             transition-duration: 0.5s;
-    fill: #ffffff;
+    fill: $wh;
 }
 .character__name {
     font-family: $mont;
@@ -371,7 +379,7 @@ main::after {
     content: "";
     width: 1200px;
     height: 1px;
-    background-color: #e5e5e5;
+    background-color: $mwh;
     margin: 0 auto;
     margin-bottom:20px;
 }
@@ -392,7 +400,7 @@ footer {
 }
 .footer__by {
     font-family: $mont;
-    color: #f6a6a6;
+    color: $hovcol2;
     display: inline-block;
     cursor: pointer;
 }
@@ -404,12 +412,12 @@ footer {
     
 }
 .form__send {
-    background-color: #95e1d3;
+    background-color: $blue;
     width: 150px;
     height: 47px;
     font-family: $mont;
     font-weight: bold;
-    color: white;
+    color: $wh;
     border: none;
     margin-left: -4px;
 }
