@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Roboto:300,300i,400,400i');
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 @media (min-width: 320px) {
     header {
@@ -9,6 +10,9 @@
     }
     main {
         position: relative;
+    }
+    .container {
+        width: 320px;
     }
     .log {
         display: inline-block;
@@ -35,16 +39,15 @@
         justify-content: center;
     }
     .german {
-        
-        margin-top: 70px;
-        margin-left: 10%;
+        width: 208.84px;
+        margin: 70px auto;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         color: white;
     }
     .main-img2 {
         background-image: url(./img/7960910e34.jpg);
-        width: 322px;
+        width: 100%;
         height: 542px;
     }
     .title {
@@ -247,10 +250,20 @@
     .main-img {
         display: none;
     }
+    main {
+        left: 22%;
+    }
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .container1 {
+        width: 140vw;
+    }
     .main-img2 {
         display: block;
         background-image: url(./img/7542e4abbd.jpg);
-        width: 1440px;
+        width: 100%;
         height: 700px;
     }
     .register {
@@ -259,6 +272,7 @@
     }
     .partners_list {
         margin: 0 auto;
+        width: 587px;
     }
     .german {
         margin-top: -38px;
@@ -266,19 +280,17 @@
     }
     .title {
         margin: 68px auto;
-        margin-left: 333px;
         font-size: 49px;
         width: 477px;
     }
     .sub-title {
-        margin-left: 359px;
-        margin-top: 30px;
+        margin: 30px auto;
         width: 398px;
         font-size: 24px;
     }
     .button_a {
         margin: 40px auto;
-        margin-left: 425px;
+        margin-left: 400px;
     }
     .title2 {
         font-size: 30px;
@@ -311,8 +323,14 @@
         display: block;
         position: static;
     }
+    .container {
+        width: 1440px;
+    }
     .main-img {
         display: none;
+    }
+    main {
+        left: 0;
     }
     .register {
         margin-left: 1200px;
@@ -321,6 +339,9 @@
         margin: 60px auto;
         font-size: 49px;
         width: 477px;
+    }
+    .on-img {
+        width: 1440px;
     }
     .sub-title {
         margin: 40px auto;
