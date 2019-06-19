@@ -12,6 +12,8 @@ main {
 }
 .container1 {
         width: 320px;
+        margin: 0 auto;
+        display: block;
 }
 .log {
         display: inline-block;
@@ -34,10 +36,11 @@ main {
         margin-left: 15px;
 }
 .header_top {
-        display: flex;
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 200px;
+    align-items: center
 }
 .register {
     order: -1;
@@ -58,6 +61,7 @@ main {
         align-items: center;
 }
 .title {
+        margin: 0;
         margin: 30px auto;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
@@ -66,6 +70,7 @@ main {
         width: 276px;
 }
 .sub-title {
+        margin: 0;
         margin: 25px auto;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
@@ -90,6 +95,7 @@ a {
         border: none;
 }
 .button_a {
+        display: block;
         margin-top: 30px;
         padding: 12px;
         background-color: #ff4e50;
@@ -113,28 +119,24 @@ a {
         list-style: none;
 }
 .character {
-        background: url(./img/1.png);
         width: 122px;
         height: 122px;
         border-radius: 100px;
         margin-left: 45px;
 }
 .character2 {
-        background: url(./img/2.png);
         width: 122px;
         height: 122px;
         border-radius: 100px;
         margin-left: 45px;
 }
 .character3 {
-        background: url(./img/3.png);
         width: 122px;
         height: 122px;
         border-radius: 100px;
         margin-left: 45px;
 }
 .character4 {
-        background: url(./img/4.png);
         width: 122px;
         height: 122px;
         border-radius: 100px;
@@ -206,6 +208,7 @@ li {
         display: flex;
         justify-content: center;
         margin-top: 20px;
+        width: 220px;
 }
 .name {
         font-family: 'Montserrat', sans-serif;
@@ -218,7 +221,6 @@ li {
 .description {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
-        width: 217px;
         text-align: center;
 }
 .alast_button {
@@ -253,6 +255,7 @@ li {
         justify-content: space-between;
         padding-top: 10px;
         flex-direction: row;
+        align-items: start;
     }
     .container1 {
         width: 100vw;
@@ -274,7 +277,7 @@ li {
     }
     .partners_list {
         margin: 0 auto;
-        width: 587px;
+        width: 537px;
     }
     .german {
         margin-top: 0;
@@ -294,9 +297,6 @@ li {
         margin: 0 auto;
     }
     .on-img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
     .title2 {
         font-size: 30px;
@@ -321,15 +321,13 @@ li {
     }
 }
 @media (min-width: 960px) {
-    main {
-        left: 0;
-    }
     .main-img2 {
         display: block;
         position: static;
     }
-    .container {
-        width: 1440px;
+    .container1 {
+        width: 940px;
+        margin: 0 auto;
     }
     .main-img {
         display: none;
@@ -362,6 +360,7 @@ li {
         display: flex;
         flex-direction: row;   
         justify-content: center;
+        width: 940px;
     }
     .alast_button {
         margin-left: 75px;
@@ -377,14 +376,11 @@ li {
     }
 }
 @media (min-width: 1440px) {
-    main {
-        left: 0;
-    }
     .main-img2 {
         display: block;
         position: static;
     }
-    .container {
+    .container1 {
         width: 1440px;
     }
     .main-img {
