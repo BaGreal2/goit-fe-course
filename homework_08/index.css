@@ -124,6 +124,9 @@ a {
         border-radius: 100px;
         margin-left: 45px;
 }
+.on-img {
+    margin: 0 auto;
+}
 .character2 {
         width: 122px;
         height: 122px;
